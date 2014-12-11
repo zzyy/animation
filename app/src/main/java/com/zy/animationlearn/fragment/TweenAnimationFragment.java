@@ -15,19 +15,16 @@ import com.zy.animationlearn.R;
  * A simple {@link Fragment} subclass.
  *
  */
-public class BaseAnimationFragment extends Fragment {
+public class TweenAnimationFragment extends Fragment {
 
 
-    public BaseAnimationFragment() {
-        // Required empty public constructor
-    }
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_base_animation, container, false);
+        return inflater.inflate(R.layout.fragment_tween_animation, container, false);
     }
 
 
